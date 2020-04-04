@@ -1,0 +1,30 @@
+north
+take sand
+north
+take space heater
+east
+take semiconductor
+west
+west
+south
+south
+east
+take ornament
+south
+take festive hat
+east
+take asterisk
+south
+west
+take food ration
+east
+east
+take cake
+west
+north
+west
+north
+west
+west
+north
+north

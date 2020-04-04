@@ -1,0 +1,11 @@
+[package]
+name = "day03"
+version = "0.1.0"
+authors = ["jtempest"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aoc = { path = "../aoc" }
+once_cell = "1.3.0"
