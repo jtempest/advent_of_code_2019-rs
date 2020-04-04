@@ -80,10 +80,10 @@ impl AsteroidField {
         const FULL_ROTATION: u32 = std::u16::MAX as u32;
         let mut all_angles = HashSet::new();
         for (angle, _) in offsets.iter_mut() {
-            while all_angles.contains(&angle) {
+            while all_angles.contains(angle) {
                 *angle += FULL_ROTATION;
             }
-            all_angles.insert(angle);
+            all_angles.insert(*angle);
         }
 
         // Sort once again by angle, which are now all unique

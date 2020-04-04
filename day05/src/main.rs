@@ -11,7 +11,7 @@ fn day05_part1() -> i64 {
     assert!(!output.is_empty());
     let (last, rest) = output.split_last().unwrap();
     assert!(rest.iter().all(|o| *o == 0), "Failed a TEST");
-    (*last)
+    *last
 }
 
 fn day05_part2() -> i64 {
